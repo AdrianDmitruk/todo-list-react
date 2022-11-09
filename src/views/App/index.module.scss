@@ -1,0 +1,50 @@
+.darck {
+  position: absolute;
+  right: 3.45%;
+  top: 4.88%;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 90%;
+  width: 258px;
+  text-align: center;
+  color: #e9c597;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  @media (max-width: 568px) {
+    padding-bottom: 40px;
+  }
+}
+
+.wrap {
+  max-width: 650px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  &InputPlus {
+    margin-bottom: 15px;
+    background: var(#{--background-components-default});
+    border-radius: 10px;
+    padding: 10px;
+  }
+  &Task {
+    display: flex;
+    flex-direction: column;
+    background: var(#{--background-components-default});
+    border-radius: 10px;
+  }
+  &Text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+}

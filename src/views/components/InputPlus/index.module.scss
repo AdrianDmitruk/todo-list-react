@@ -1,0 +1,47 @@
+.inputPlus {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 568px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+  &Tusks {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  &Value {
+    outline: none;
+    padding: 0 9px;
+    color: #858585;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 45%;
+  }
+  &Button {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 200%;
+    background: inherit;
+    background: #ffffff;
+    border: none;
+    color: #44a0a0;
+    border-radius: 10px;
+    width: 182px;
+  }
+  @media (max-width: 568px) {
+    &Value {
+      width: 95%;
+    }
+  }
+}
